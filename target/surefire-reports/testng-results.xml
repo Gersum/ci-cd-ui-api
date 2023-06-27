@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-25T13:24:43 MSK" name="Surefire suite" finished-at="2023-06-25T13:26:51 MSK" duration-ms="127755">
+    <groups>
+    </groups>
+    <test started-at="2023-06-25T13:24:43 MSK" name="Surefire test" finished-at="2023-06-25T13:26:51 MSK" duration-ms="127755">
+      <class name="com.ci_cd_selenium.firstproject.TestClass1">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@69930714]" started-at="2023-06-25T13:24:43 MSK" name="launchDriver" finished-at="2023-06-25T13:25:29 MSK" duration-ms="45839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="test1()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@69930714]" started-at="2023-06-25T13:25:29 MSK" name="test1" finished-at="2023-06-25T13:25:42 MSK" duration-ms="13100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@69930714]" started-at="2023-06-25T13:25:42 MSK" name="quit" finished-at="2023-06-25T13:25:43 MSK" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@69930714]" started-at="2023-06-25T13:25:43 MSK" name="launchDriver" finished-at="2023-06-25T13:25:59 MSK" duration-ms="16297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="test2()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@69930714]" started-at="2023-06-25T13:25:59 MSK" name="test2" finished-at="2023-06-25T13:26:30 MSK" duration-ms="30654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@69930714]" started-at="2023-06-25T13:26:30 MSK" name="quit" finished-at="2023-06-25T13:26:30 MSK" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@69930714]" started-at="2023-06-25T13:26:30 MSK" name="launchDriver" finished-at="2023-06-25T13:26:47 MSK" duration-ms="17030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="test3()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@69930714]" started-at="2023-06-25T13:26:47 MSK" name="test3" finished-at="2023-06-25T13:26:51 MSK" duration-ms="3248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@69930714]" started-at="2023-06-25T13:26:51 MSK" name="quit" finished-at="2023-06-25T13:26:51 MSK" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.ci_cd_selenium.firstproject.TestClass1 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
