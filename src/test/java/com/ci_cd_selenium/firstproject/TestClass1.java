@@ -19,9 +19,9 @@ public class TestClass1 {
 	     //driver = new FirefoxDriver();
 	    
 	     System.out.println("Browser is launched");
-	     Thread.sleep(2000);
+	     
 		 driver.manage().window().maximize();	
-		 Thread.sleep(2000);
+		
 		 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		
 	}
