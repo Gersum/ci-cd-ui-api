@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-02T11:57:29 MSK" name="Default suite" finished-at="2023-07-02T11:58:32 MSK" duration-ms="63381">
+  <suite started-at="2023-07-04T13:17:44 MSK" name="Default suite" finished-at="2023-07-04T13:19:51 MSK" duration-ms="126673">
     <groups>
     </groups>
-    <test started-at="2023-07-02T11:57:29 MSK" name="Default test" finished-at="2023-07-02T11:58:32 MSK" duration-ms="63381">
+    <test started-at="2023-07-04T13:17:44 MSK" name="Default test" finished-at="2023-07-04T13:19:51 MSK" duration-ms="126673">
       <class name="com.ci_cd_selenium.firstproject.TestClass1">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@4cc451f2]" started-at="2023-07-02T11:57:29 MSK" name="launchDriver" finished-at="2023-07-02T11:57:41 MSK" duration-ms="12600" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@294425a7]" started-at="2023-07-04T13:17:44 MSK" name="launchDriver" finished-at="2023-07-04T13:17:52 MSK" duration-ms="8084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="test1()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@4cc451f2]" started-at="2023-07-02T11:57:41 MSK" name="test1" finished-at="2023-07-02T11:57:45 MSK" duration-ms="3773" status="PASS">
+        <test-method signature="test1()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@294425a7]" started-at="2023-07-04T13:17:52 MSK" name="test1" finished-at="2023-07-04T13:18:16 MSK" duration-ms="24127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@4cc451f2]" started-at="2023-07-02T11:57:45 MSK" name="quit" finished-at="2023-07-02T11:57:45 MSK" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@294425a7]" started-at="2023-07-04T13:18:16 MSK" name="quit" finished-at="2023-07-04T13:18:17 MSK" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@4cc451f2]" started-at="2023-07-02T11:57:45 MSK" name="launchDriver" finished-at="2023-07-02T11:57:54 MSK" duration-ms="8763" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@294425a7]" started-at="2023-07-04T13:18:17 MSK" name="launchDriver" finished-at="2023-07-04T13:19:14 MSK" duration-ms="57455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="test2()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@4cc451f2]" started-at="2023-07-02T11:57:54 MSK" name="test2" finished-at="2023-07-02T11:58:22 MSK" duration-ms="27656" status="PASS">
+        <test-method signature="test2()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@294425a7]" started-at="2023-07-04T13:19:14 MSK" name="test2" finished-at="2023-07-04T13:19:39 MSK" duration-ms="24681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@4cc451f2]" started-at="2023-07-02T11:58:22 MSK" name="quit" finished-at="2023-07-02T11:58:22 MSK" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@294425a7]" started-at="2023-07-04T13:19:39 MSK" name="quit" finished-at="2023-07-04T13:19:40 MSK" duration-ms="786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@4cc451f2]" started-at="2023-07-02T11:58:22 MSK" name="launchDriver" finished-at="2023-07-02T11:58:30 MSK" duration-ms="7994" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@294425a7]" started-at="2023-07-04T13:19:40 MSK" name="launchDriver" finished-at="2023-07-04T13:19:47 MSK" duration-ms="7840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="test3()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@4cc451f2]" started-at="2023-07-02T11:58:30 MSK" name="test3" finished-at="2023-07-02T11:58:32 MSK" duration-ms="1622" status="PASS">
+        <test-method signature="test3()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@294425a7]" started-at="2023-07-04T13:19:47 MSK" name="test3" finished-at="2023-07-04T13:19:50 MSK" duration-ms="2808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@4cc451f2]" started-at="2023-07-02T11:58:32 MSK" name="quit" finished-at="2023-07-02T11:58:32 MSK" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.ci_cd_selenium.firstproject.TestClass1@294425a7]" started-at="2023-07-04T13:19:50 MSK" name="quit" finished-at="2023-07-04T13:19:51 MSK" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

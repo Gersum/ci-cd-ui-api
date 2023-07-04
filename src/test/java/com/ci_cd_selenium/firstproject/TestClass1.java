@@ -2,23 +2,30 @@ package com.ci_cd_selenium.firstproject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
-
+import java.net.MalformedURLException;
+import java.net.URL;
 public class TestClass1 {
 	 WebDriver driver;
 
     @BeforeMethod
-	public void launchDriver() throws InterruptedException{
+	public void launchDriver() throws InterruptedException, MalformedURLException{
+    	ChromeOptions options = new ChromeOptions();
+    	options.setPlatformName("Windows 11");
+    	
+    	
+    	
     	System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Compressed\\chromedriver_win32\\chromedriver.exe");
 	    
-//	     System.setProperty("webdriver.gecko.driver","C:\\Users\\User\\Downloads\\chromedriver_win32 (1)\\geckodriver.exe");
-	    driver = new ChromeDriver();
-	     //driver = new FirefoxDriver();
-	    
+	     //driver = new ChromeDriver();
+	     driver = new RemoteWebDriver(new URL("http://192.168.0.157:4444/wd/hub"), options);
 	     System.out.println("Browser is launched");
+	
 	     
 		 driver.manage().window().maximize();	
 		
