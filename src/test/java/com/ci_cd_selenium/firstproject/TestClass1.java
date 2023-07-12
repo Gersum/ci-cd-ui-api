@@ -29,7 +29,7 @@ public class TestClass1 {
 	     
 		 driver.manage().window().maximize();	
 		
-		 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		// driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		
 	}
 	@Test
