@@ -40,7 +40,7 @@ public class TestClass1 {
 	@Test
 	public void test2(){
 		driver.navigate().to("https://www.yahoo.com");
-		System.out.println("test 2 title is "+ driver.getTitle());
+		System.out.println("test 2 title is... "+ driver.getTitle());
 	}
 	
 	@Test
