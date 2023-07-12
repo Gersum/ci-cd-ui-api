@@ -20,7 +20,7 @@ public class TestClass1 {
     	
     	
     	
-    	System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Compressed\\chromedriver_win32\\chromedriver.exe");
+    	//System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Compressed\\chromedriver_win32\\chromedriver.exe");
 	    
 	     //driver = new ChromeDriver();
 	     driver = new RemoteWebDriver(new URL("http://192.168.0.157:4444/wd/hub"), options);
