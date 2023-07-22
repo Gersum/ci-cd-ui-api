@@ -1,7 +1,6 @@
 package com.ci_cd_selenium.firstproject;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -19,25 +18,12 @@ public class TestClass1 {
     	options.setPlatformName("Windows 11");
     	
     	
-    	
-<<<<<<< HEAD
-    	//System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Compressed\\chromedriver_win32_1\\chromedriver.exe");
-=======
-    	//System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Compressed\\chromedriver_win32\\chromedriver.exe");
->>>>>>> 23edbd5c125105db1361e554cfc3b659efe1c778
-	    
 	     //driver = new ChromeDriver();
          driver = new RemoteWebDriver(new URL("http://192.168.43.207:4444/wd/hub"), options);
 	     System.out.println("Browser is launched");
 	
 	     
 		 driver.manage().window().maximize();	
-		
-<<<<<<< HEAD
-		 //driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-=======
-		// driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
->>>>>>> 23edbd5c125105db1361e554cfc3b659efe1c778
 		
 	}
 	@Test
