@@ -20,7 +20,11 @@ public class TestClass1 {
     	
     	
     	
+<<<<<<< HEAD
     	//System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Compressed\\chromedriver_win32_1\\chromedriver.exe");
+=======
+    	//System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Compressed\\chromedriver_win32\\chromedriver.exe");
+>>>>>>> 23edbd5c125105db1361e554cfc3b659efe1c778
 	    
 	     //driver = new ChromeDriver();
          driver = new RemoteWebDriver(new URL("http://192.168.43.207:4444/wd/hub"), options);
@@ -29,7 +33,11 @@ public class TestClass1 {
 	     
 		 driver.manage().window().maximize();	
 		
+<<<<<<< HEAD
 		 //driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+=======
+		// driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+>>>>>>> 23edbd5c125105db1361e554cfc3b659efe1c778
 		
 	}
 	@Test
@@ -40,7 +48,7 @@ public class TestClass1 {
 	@Test
 	public void test2(){
 		driver.navigate().to("https://www.yahoo.com");
-		System.out.println("test 2 title is "+ driver.getTitle());
+		System.out.println("test 2 title is... "+ driver.getTitle());
 	}
 	
 	@Test
