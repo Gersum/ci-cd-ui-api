@@ -20,16 +20,16 @@ public class TestClass1 {
     	
     	
     	
-    	System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Compressed\\chromedriver_win32\\chromedriver.exe");
+    	//System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Compressed\\chromedriver_win32_1\\chromedriver.exe");
 	    
 	     //driver = new ChromeDriver();
-	     driver = new RemoteWebDriver(new URL("http://192.168.0.157:4444/wd/hub"), options);
+         driver = new RemoteWebDriver(new URL("http://192.168.43.207:4444/wd/hub"), options);
 	     System.out.println("Browser is launched");
 	
 	     
 		 driver.manage().window().maximize();	
 		
-		 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		 //driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		
 	}
 	@Test

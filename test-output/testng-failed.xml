@@ -7,6 +7,9 @@
         <methods>
           <include name="launchDriver"/>
           <include name="test3"/>
+          <include name="test2"/>
+          <include name="test1"/>
+          <include name="quit"/>
         </methods>
       </class> <!-- com.ci_cd_selenium.firstproject.TestClass1 -->
     </classes>
